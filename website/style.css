@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e8ff; /* Light purple background */
+    color: #333;
+  }
+  
+  header {
+    background-color: #6a0dad; /* Dark purple header */
+    color: white;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  nav {
+    background-color: #2c3e50; /* Dark grey navigation */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #34495e; /* Darker grey link background */
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #2c3e50; /* Darker grey on hover */
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  footer {
+    background-color: black; /* Black footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+  }
+  
